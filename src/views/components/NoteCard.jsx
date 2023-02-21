@@ -23,7 +23,7 @@ function NoteCard({ size, note }) {
     <>
       {size === 'small' && (
       <Link to={`detail/${note.id}`}>
-        <li className="w-[300px] h-[250px] bg-white dark:bg-slate-700 rounded-md p-5 flex flex-col gap-y-2 shadow-sm hover:bg-sky-100 dark:hover:bg-slate-800 group">
+        <li className="w-full md:max-w-[300px] h-[250px] bg-white dark:bg-slate-700 rounded-md p-5 flex flex-col gap-y-2 shadow-sm hover:bg-sky-100 dark:hover:bg-slate-800 group">
           <h1 className="font-medium text-xl text-sky-500 whitespace-nowrap overflow-hidden text-ellipsis">{currentNote.title}</h1>
           <p className="text-gray-600 w-full dark:text-slate-50 text-sm line-clamp-5 leading-6">{currentNote.body}</p>
           <p className="text-sm text-slate-500 dark:text-slate-400 mt-auto overflow-hidden">{locale === 'en' ? `Created at : ${getFullDate(currentNote.createdAt, 'en-EN')}` : `Dibuat pada : ${getFullDate(currentNote.createdAt, 'id-ID')}` }</p>
