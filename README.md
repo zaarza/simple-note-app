@@ -18,8 +18,6 @@ This is submission for Dicoding course "Belajar Fundamental Aplikasi Web dengan 
 - Show loading indicator
 - Toggle language
 
-
-
 ## Overview
 
 ### Screenshot
@@ -62,4 +60,3 @@ This is submission for Dicoding course "Belajar Fundamental Aplikasi Web dengan 
 
 - Website - [Arzaqul Mughny Al Fawwaz](https://www.zaarza.github.io)
 - Dicoding Profile - [Arzaqul Mughny Al Fawwaz](https://www.dicoding.com/users/zaarza/academies)
-
