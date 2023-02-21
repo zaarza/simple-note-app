@@ -1,4 +1,4 @@
-# Frontend Mentor - REST Countries API with color theme switcher solution
+# Simple Notes App
 
 This is submission for Dicoding course "Belajar Fundamental Aplikasi Web dengan React"
 
